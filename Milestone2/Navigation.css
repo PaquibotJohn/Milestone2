@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+  border: solid 1px;
+  padding: 10px 10px;
+  background-color: #2ebc99;
+}
+
+.container {
+  background-color: #333;
+  padding: 10px 0px;
+}
+
+.container .dropdown-toggle {
+  border:solid 3px;
+  background-color: black;
+}
+.container .dropdown-menu {
+  background-color: #2ebc52;
+}
+
+@media screen and (max-width: 600px) {
+  .container {position: relative;}
+  .container {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .container a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
